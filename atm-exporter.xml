@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>PROJ</projectKey>
+    <exportDate>2023-02-20 16:39:21 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="80545115" key="PROJ-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Maiko Toporoski</createdBy>
+            <createdOn>2023-02-20 16:25:52 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja baixar aplicativo na playstore]]></name>
+            <objective><![CDATA[Verificar funcionalidade do download.]]></objective>
+            <owner>63f0fd11bc0f9b3a16fe0977</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given Que o cliente esteja na área principal
+And Esteja online
+When Acessar a página
+Then Terá acesso ao link de download]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="80545218" key="PROJ-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Maiko Toporoski</createdBy>
+            <createdOn>2023-02-20 16:29:45 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente não consegue baixar]]></name>
+            <objective><![CDATA[Baixar aplicativo]]></objective>
+            <owner>63f0fd11bc0f9b3a16fe0977</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given Cliente esteja conectado a internet
+And Esteja logado a playstore com a conta google
+When Clicar no download
+Then Fará o download]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="80545474" key="PROJ-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Maiko Toporoski</createdBy>
+            <createdOn>2023-02-20 16:30:32 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente está acessando a página com o link do download no site]]></name>
+            <owner>63f0fd11bc0f9b3a16fe0977</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Site com link para download do aplicativo]]></description>
+                        <expectedResult><![CDATA[Download do aplicativo]]></expectedResult>
+                        <testData><![CDATA[Back end entre o servidor e apis para o acesso.]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="80545691" key="PROJ-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Maiko Toporoski</createdBy>
+            <createdOn>2023-02-20 16:33:06 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Acessando playstore]]></name>
+            <owner>63f0fd11bc0f9b3a16fe0977</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acesso aa loja playstore]]></description>
+                        <expectedResult><![CDATA[Acesso a playstore]]></expectedResult>
+                        <testData><![CDATA[Conex&atilde;o com internet, servidor,]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
